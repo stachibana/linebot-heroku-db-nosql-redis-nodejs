@@ -1,0 +1,19 @@
+{
+  "name": "bot-save-image-nodejs",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@line/bot-sdk": "^2.0.0",
+    "cloudinary": "^1.9.0",
+    "express": "^4.15.2",
+    "redis": "^2.8.0",
+    "uuid": "^3.1.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "6.11.1"
+  }
+}
